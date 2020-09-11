@@ -18,6 +18,20 @@ class Excel extends React.Component {
             search: false,
             preSearchData: null,
         };
+        
+        /*this.sort = this.sort.bind(this);
+        this.showEditor = this.showEditor.bind(this);
+        this.save = this.save.bind(this);
+        this.toggleSearch = this.toggleSearch.bind(this);
+        this.search = this.search.bind(this);
+        this.download = this.download.bind(this);
+        this.getBooks = this.getBooks.bind(this);
+        console.log("bind finished");*/
+        
+        /*this.renderToolbar = this.renderToolbar.bind(this);
+        this.renderTable = this.renderTable.bind(this);
+        this.renderSearch = this.renderSearch.bind(this);
+        this.render = this.render.bind(this);*/
     }
 
     sort = (e) => {
